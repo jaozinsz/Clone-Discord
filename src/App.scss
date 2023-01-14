@@ -1,38 +1,99 @@
-.App {
-  text-align: center;
-}
+.Page1 {
+  background-color: #5166f7;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  .cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    .logo {
+      height: 4.3em;
+      margin-left: 0.9em;
+      margin-top: 5px;
+    }
+
+    .links {
+      margin-right: 4em;
+
+      .link {
+        margin: 1.3em;
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+
+    .abrir {
+      border-radius: 30px;
+      border-style: none;
+      padding: 1em;
+      background-color: #fff;
+    }
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  .textos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
 
-.App-link {
-  color: #61dafb;
-}
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 33em;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+    .titulo {
+      color: #fff;
+      font-size: 54px;
+    }
+
+    .subtitulo {
+      margin-top: auto;
+      color: #fff;
+    }
+
+
+    .botoes {
+      width: 50em;
+    }
+
+    .botao1{
+      background-color: #fff;
+      align-items: center;
+    }
+
+    .botao2 {
+      background-color: #36393f;
+      color:#fff;
+    }
+
+    .botao1,
+    .botao2 {
+      border-style: none;
+      border-radius: 50px;
+      margin: 1em;
+      padding: 1em;
+      height: 5em;
+      width: 26em;
+    }
   }
-  to {
-    transform: rotate(360deg);
+  
+  .imagens {
+    border: solid green;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
+
+  .back1 {
+    position: relative;
+    right: 18em;
+  }
+
+  .back2 {
+    position: relative;
+    left: 26em;
+  }
+
 }
