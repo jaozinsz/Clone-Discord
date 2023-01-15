@@ -128,7 +128,6 @@
 
   .image {
     margin-top: 2em;
-    border: solid green;
     margin-left: 10em;
   }
 
@@ -136,7 +135,6 @@
     text-align:left;
     width: 2em;
     margin-left: 7em;
-    border: solid green;
     width: 30em;
     display: flex;
     flex-direction: column;
@@ -154,6 +152,90 @@
   }
 
   .subtitulo1 {
+    letter-spacing: 2px;
+    margin-top: -3em;
+    width: 22em;
+    line-height: 1.7em;
+    font-family: 'Cooper';
+    font-size: 17px;
+  }
+}
+
+.Page3 {
+  background-color: #f6f6f6;
+  display: flex;
+  flex-direction: row-reverse;
+  height: 78vh;
+
+  .image2 {
+    margin-top: 4em;
+    margin-left: 10em;
+  }
+
+  .texto2 {
+    text-align:left;
+    width: 2em;
+    margin-top: 4em;
+    margin-left: 7em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo2 {
+    color: #23272a;
+    width: 9em;
+    line-height: 1.3em;
+    margin-bottom: 2em;
+
+    font-size: 42px;
+    font-weight: bolder ;
+    font-family: 'Corsa';
+  }
+
+  .subtitulo2 {
+    letter-spacing: 2px;
+    margin-top: -3em;
+    width: 22em;
+    line-height: 1.7em;
+    font-family: 'Cooper';
+    font-size: 17px;
+  }
+}
+
+.Page4 {
+  margin-top: 7em;
+  display: flex;
+  flex-direction: row;
+  height: 78vh;
+
+  .image3 {
+    margin-top: 4em;
+    margin-left: 10em;
+  }
+
+  .texto3 {
+    text-align:left;
+    width: 2em;
+    margin-left: 7em;
+    margin-top: 4em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo3 {
+    color: #23272a;
+    width: 9em;
+    line-height: 1.3em;
+    margin-bottom: 2em;
+
+    font-size: 42px;
+    font-weight: bolder ;
+    font-family: 'Corsa';
+  }
+
+  .subtitulo3 {
     letter-spacing: 2px;
     margin-top: -3em;
     width: 22em;
