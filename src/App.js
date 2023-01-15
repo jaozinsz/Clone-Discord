@@ -7,6 +7,8 @@ import back3 from "./images/background.svg";
 import img1 from "./images/img1.svg";
 import img2 from "./images/img2.svg";
 import img3 from "./images/img3.svg";
+import img4 from "./images/img4.svg";
+import estrelas from "./images/estrelas download.svg"
 
 function App() {
   return (
@@ -43,7 +45,6 @@ function App() {
             <a className="link" href="">
               Careers
             </a>
-            
           </div>
 
           <button className="abrir">Open Discord</button>
@@ -90,13 +91,11 @@ function App() {
       </section>
 
       <section className="Page3">
-      <div className="image2">
+        <div className="image2">
           <img src={img2} alt="" />
         </div>
         <div className="texto2">
-          <h1 className="titulo2">
-            Aqui é fácil se encontrar
-          </h1>
+          <h1 className="titulo2">Aqui é fácil se encontrar</h1>
 
           <h5 className="subtitulo2">
             Os servidores Discord são organizados em canais com assuntos para
@@ -111,17 +110,35 @@ function App() {
           <img src={img3} alt="" />
         </div>
         <div className="texto3">
-          <h1 className="titulo3">
-            Para poucos e muitos amigos
-          </h1>
+          <h1 className="titulo3">Para poucos e muitos amigos</h1>
 
           <h5 className="subtitulo3">
-          Organize qualquer comunidade com ferramentas de moderação e acesso personalizado a membros. Dê poderes especiais aos membros, monte canais privados e muito mais.
+            Organize qualquer comunidade com ferramentas de moderação e acesso
+            personalizado a membros. Dê poderes especiais aos membros, monte
+            canais privados e muito mais.
           </h5>
         </div>
       </section>
 
       <section className="Page5">
+        <div className="texto4">
+          <h1 className="titulo4">TECNOLOGIA DE CONEXÃO CONFIÁVEL</h1>
+
+          <h5 className="subtitulo4">
+            Voz e vídeo de baixa latência, para você conversar como se estivesse
+            na mesma sala. Dê um joinha por vídeo, veja amigos transmitirem a
+            jogatina do dia ou junte uma galera pra desenhar na tela
+            compartilhada.
+          </h5>
+        </div>
+
+        <img className="image4" src={img4} alt="" />
+
+
+        <h1 className="titulo5">Vamos começar sua jornada?</h1>
+        <img className="stars" src={estrelas} alt="" />
+
+        <button className="botao3">Baixar para Windows</button>
 
       </section>
     </main>
