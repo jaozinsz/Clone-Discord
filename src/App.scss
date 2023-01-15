@@ -1,5 +1,6 @@
 .Page1 {
-  background-color: #5166f7;
+  background-color: #404eed;
+  height: 90vh;
 
   .cabecalho {
     display: flex;
@@ -17,6 +18,7 @@
       margin-right: 4em;
 
       .link {
+        font-family: 'QuattrocentoSans';
         margin: 1.3em;
         color: #fff;
         text-decoration: none;
@@ -32,10 +34,10 @@
   }
 
   .textos {
+    position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-end;
     text-align: center;
 
     margin-top: 4em;
@@ -46,26 +48,43 @@
     .titulo {
       color: #fff;
       font-size: 54px;
+      line-height: 1em;
+      font-family: 'Sonar Hubermann';
     }
 
     .subtitulo {
+      line-height: 35px;
       margin-top: auto;
       color: #fff;
+      font-weight: 100;
+      font-size: 20px;
+      font-family: 'TafelSans';
     }
 
+    .sub {
+      width: 42em;
+    }
+    
 
     .botoes {
-      width: 50em;
+      width: 70em;
     }
 
     .botao1{
+      font-size: large;
+      font-weight:600;
       background-color: #fff;
+      color: #36393f;
       align-items: center;
+      width: 17em;
     }
 
     .botao2 {
+      font-size: large;
+      font-weight: 600;
       background-color: #36393f;
       color:#fff;
+      width: 20em;
     }
 
     .botao1,
@@ -73,27 +92,73 @@
       border-style: none;
       border-radius: 50px;
       margin: 1em;
-      padding: 1em;
-      height: 5em;
-      width: 26em;
+      padding: 0em;
+      height: 3em;
+      
     }
   }
   
-  .imagens {
-    border: solid green;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-  }
 
   .back1 {
-    position: relative;
-    right: 18em;
+    position: absolute;
+    left: -18em;
+    margin-top: 14em;
   }
 
   .back2 {
-    position: relative;
-    left: 26em;
+    position: absolute;
+    left: 70em;
+    margin-top: 13.6em;
   }
 
+  .back3 {
+    position: absolute;
+    margin-top: -3em;
+    right: -33em;
+  }
+
+}
+
+.Page2 {
+
+  margin-top: 7em;
+  height: 85vh;
+  display: flex;
+  flex-direction: row;
+
+  .image {
+    margin-top: 2em;
+    border: solid green;
+    margin-left: 10em;
+  }
+
+  .texto {
+    text-align:left;
+    width: 2em;
+    margin-left: 7em;
+    border: solid green;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .titulo1 {
+    color: #23272a;
+    width: 9em;
+    line-height: 1.3em;
+    margin-bottom: 2em;
+
+    font-size: 42px;
+    font-weight: bolder ;
+    font-family: 'Corsa';
+  }
+
+  .subtitulo1 {
+    letter-spacing: 2px;
+    margin-top: -3em;
+    width: 22em;
+    line-height: 1.7em;
+    font-family: 'Cooper';
+    font-size: 17px;
+  }
 }
