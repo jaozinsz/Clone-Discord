@@ -298,3 +298,216 @@
     width: 17em;
   }
 }
+
+.Rodape {
+  display: flex;
+  flex-direction: row;
+  background-color: #23272a;
+  height: 60vh;
+
+  .coluna1 {
+    display: flex;
+    flex-direction: column;
+    width: 20em;
+    height: 10em;
+    
+
+    margin-left: 9em;
+
+
+    .linha1 {
+      margin-top: 5em;
+
+      .titulo6 {
+        font-family: 'Sonar Hubermann';
+        font-size: 30px;
+        color: #4b57dd;
+        width: 10em;
+        margin-bottom: 0.5em;
+        margin-top: -0.1em;
+      }
+
+      .bandeira {
+        width: 1.6em;
+        border: solid green;
+      }
+  
+      .idioma {
+        border: solid #23272a;
+        background-color: transparent;
+        color: #fff;
+        
+        margin-top: 1em;
+
+        
+      }
+
+      .redes_sociais {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2em;
+        width: 10em;
+        
+
+        .twitter,
+        .instagram,
+        .youtube,
+        .facebook {
+          width: 23px;
+          height: 23px;
+
+        }
+      }
+    }
+  }
+
+  .coluna2 {
+    margin-top: 3.5em;
+    margin-left: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    height: 10em;
+
+    .titulo7 {
+      color: #404eed;
+      font-weight: 100;
+      font-size: 15px;     
+      margin-bottom: 0.1em;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+    .link2 {
+      color: #fff;
+      font-size: 15px;
+      text-decoration: none;
+      line-height: 2em;
+    }
+  }
+
+  .coluna3 {
+    margin-top: 3.5em;
+    margin-left: 7em;
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    height: 10em;
+
+    .titulo8 {
+      color: #404eed;
+      font-weight: 100;
+      font-size: 15px;     
+      margin-bottom: 0.1em;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+    .link3 {
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
+      line-height: 2em;
+    }
+  }
+
+  .coluna4 {
+    margin-top: 3.5em;
+    margin-left: 5em;
+    display: flex;
+    flex-direction: column;
+    width: 5em;
+    height: 10em;
+
+    .titulo9 {
+      color: #404eed;
+      font-weight: 100;
+      font-size: 15px;     
+      margin-bottom: 0.1em;
+    }
+
+    .links {
+      display: flex;
+      flex-direction: column;
+    }
+    .link4 {
+      font-size: 15px;
+      color: #fff;
+      text-decoration: none;
+      line-height: 2em;
+    }
+  }
+
+  .coluna5 {
+      margin-top: 3.5em;
+      margin-left: 5em;
+      display: flex;
+      flex-direction: column;
+      width: 20em;
+      height: 10em;
+  
+      .titulo10 {
+        color: #404eed;
+        font-weight: 100;
+        font-size: 15px;     
+        margin-bottom: 0.1em;
+      }
+  
+      .links {
+        display: flex;
+        flex-direction: column;
+      }
+      .link5 {
+        font-size: 15px;
+        color: #fff;
+        text-decoration: none;
+        line-height: 2em;
+      }
+  }
+
+
+}
+
+.Rodape2 {
+  display: flex;
+  flex-direction: column;
+  height: 15vh;
+  background-color: #23272a;
+
+  .quebra_de_linha {
+    background-color: #404eed;
+    height: 1px;
+    width: 80em;
+    margin: auto;
+  }
+
+  .final {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .logo{
+      height: 4em;
+    }
+  }
+
+  .Registro {
+    border-style: none;
+    border-radius: 50px;
+    margin: 1em;
+    margin-left: 65em;
+    padding: 0em;
+    height: 3em;  
+    background-color: #4b57dd;
+    color: #fff;
+    align-items: center;
+    width: 5em;
+  }
+}
+
+ 
